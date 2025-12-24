@@ -1,0 +1,23 @@
+a
+{
+    text-decoration: none;
+
+    display: inline-block;
+
+   /* border: 1px solid red;*/
+
+   color:white;
+
+    padding:10px;
+   
+}
+
+a:hover
+{
+    background-color: green;
+}
+
+nav
+{
+    background-color: black;
+}

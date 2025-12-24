@@ -1,0 +1,32 @@
+div
+{
+    margin-left: 400px;
+    background-color:limegreen;
+    max-width:300px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.A
+{
+    background-color:indigo;
+    color:red;
+    border-radius:3%;
+}
+
+input
+{
+        padding:10px;
+}
+
+.btn
+{
+			padding:11px;
+            
+			background-color:blue;
+			color: brown;
+			border-radius:10%;
+            border: 1px solid silver;
+            width:70px;
+    
+}

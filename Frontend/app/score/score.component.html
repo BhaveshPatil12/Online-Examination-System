@@ -1,0 +1,34 @@
+<html>
+<body>
+
+<img style="position: absolute;top:100px;right:100px" src="assets/images/1.jpg" width="100px height=100px">
+
+<span style="color:red;font-size: 30px"> Your Score is {{totalscore}}</span><br><br>
+
+<table>
+
+    <tr style="background-color: blue">
+        <th>qno</th>
+        <th>Question</th>
+        <th>Submitted Answer</th>
+        <th>Correct Answer</th>
+               
+    </tr>
+
+    <tr *ngFor="let answer of allanswers" [style.background]="getColor(answer.submittedAnswer,answer.originalAnswer)">
+            
+            <td>{{answer.qno}}</td>
+
+            <td>{{answer.qtext}}</td>
+
+            <td>{{answer.submittedAnswer}}</td>
+
+            <td>{{answer.originalAnswer}}</td>
+
+    </tr>
+
+</table>
+
+</body>
+
+</html>

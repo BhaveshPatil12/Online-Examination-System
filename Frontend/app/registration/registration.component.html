@@ -1,0 +1,24 @@
+
+
+<img style="position: absolute;top:60px;" src="assets/images/1.jpg" width="100px height=100px">
+<br><br>
+<div>
+<h1> Register Page </h1>
+
+<form>
+		<table>
+
+		<tr><td><label>Username</label></td> <td><input class="A" type="text" name="username"  [(ngModel)]="user.username"></td></tr>
+		
+		<tr><td><label>password</label></td> <td><input class="A" type="password" name="password"  [(ngModel)]="user.password"></td></tr>
+
+		<tr><td><label>Mobile No</label> </td> <td><input class="A" type="text"  name="mobno" [(ngModel)]="user.mobno"></td></tr>
+		
+		<tr><td><label>Email Id</label></td> <td><input class="A" type="email" name="emailid" [(ngModel)]="user.emailid"></td></tr>
+		
+		<tr><td></td><td><input type=submit value=register (click)="saveToDb()" class="btn"></td></tr>
+
+	</table>
+</form>
+
+</div>

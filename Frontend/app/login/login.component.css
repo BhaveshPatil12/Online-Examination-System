@@ -1,0 +1,49 @@
+
+input,select
+{
+        padding:10px;
+}
+
+.btn
+{
+			padding:11px;
+			background-color:blue;
+			color: brown;
+			border-radius:10%;
+            border: 1px solid silver;
+            width:70px;
+    
+}
+
+
+a
+{
+    text-decoration: none;
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius:10%;
+    background-color: blue;
+    color: brown;
+}
+
+select
+{
+    background-color: aqua;
+    width:100px;   
+}
+
+.A
+{
+    background-color:indigo;
+    color:red;
+    border-radius:3%;
+}
+
+div
+{
+    margin-left: 400px;
+    background-color:limegreen;
+    max-width:300px;
+    padding: 15px;
+}
+
